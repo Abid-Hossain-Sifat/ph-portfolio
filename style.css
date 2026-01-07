@@ -27,7 +27,7 @@
   font-weight: bolder;
   cursor: pointer;
 }
-.about-heading, .skill-heading {
+.about-heading, .skill-heading, .resume-heading {
   max-width: 827px;
   text-align: center;
   margin: 0 auto;
@@ -104,7 +104,7 @@ nav .menu a {
   height: auto;
   margin-bottom: 30px;
 }
-.Hero-sec .content .hb .cv {
+.Hero-sec .content .hb .cv, .cv {
   background-color: #FD6E0A;
   border: none;
   border-radius: 5px;
@@ -131,9 +131,7 @@ nav .menu a {
  vertical-align: middle;
  
 }
-#about-sec {
-  padding-top: 130px;
-}
+
 #about-sec .about-container {
   width: 59%;
   max-width: 1140px;
@@ -156,7 +154,7 @@ nav .menu a {
   line-height: 30px;
   color: #474747;
 }
-#skill-sec {
+#skill-sec, #about-sec, #resume {
   padding-top: 130px ;
 }
 #skill-sec .skill-container {
@@ -188,4 +186,38 @@ nav .menu a {
   font-size: 16px;
   line-height: 28px;
   color: #757575;
+}
+.resume-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 113px auto 0;
+  display: flex;
+  gap: 24px;
+}
+.resume-container .edu-h2, .Experience .exp-h2 {
+  font-size: 30px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+.resume-card .c-title, .exp-card .c-title {
+font-size: 25px;
+color: #474747;
+margin-bottom: 10px;
+}
+.resume-card .c-info, .exp-card .c-info {
+  font-size: 20px;
+  color: #757575;
+  margin-bottom: 20px;
+}
+.resume-card .c-text, .exp-card .c-text {
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+hr {
+  margin-bottom: 30px;
+}
+.txt-cntr{
+  text-align: center;
 }
