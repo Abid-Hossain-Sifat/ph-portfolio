@@ -267,3 +267,192 @@ footer {
   border-radius: 5px;
   color: #757575;
 }
+
+ .hide {
+  display: none !important;
+}
+
+
+@media screen and (max-width:576px) {
+
+
+  #skill-sec .skill-container {
+    width: 95%;
+    
+}
+#about-sec .about-container{
+  padding: 20px;
+  width: 95%;
+
+}
+
+header {
+  padding-top: 20px;
+  width: 100%;
+}
+nav {
+  width: 90%;
+  justify-content: space-between;
+}
+.logo h2{
+  font-size: 25px;
+}
+nav .menu {
+  gap: 25px;
+  
+}
+nav .menu a {
+  font-size: 15px;
+}
+.btn {
+  font-size: 15px;
+  padding: 9px 17px;
+}
+
+.Hero-sec {
+  flex-direction: column;
+  margin: 23px 19px 0 80px;
+}
+.Hero-sec .content {
+  width: 90%;
+}
+.Hero-sec .content h2 {
+  font-size: 25px;
+  
+}
+.Hero-sec .content h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.Hero-sec .content p {
+  width: 90%;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.Hero-sec .content .hb .Contact {
+    font-size: 15px;
+    padding: 15px 13px;
+    margin: 0 auto;
+    margin-left: 15px;
+}
+/* .Hero-sec .hero-img{
+  background-color: red;
+  display: flex;
+  justify-content: flex-end;
+  
+} */
+
+
+
+.Hero-sec .hero-img img {
+  width: auto;
+  max-width: 288px;
+  height: auto;
+  vertical-align: middle;
+  
+  
+}
+header {
+        background:
+            url(source/developer.png),
+            url(source/header_bg.png),
+            #FFF8F3;
+
+        background-repeat: no-repeat, no-repeat;
+        background-position: bottom left,  bottom ;
+        background-size: 80px auto, 600px;
+    }
+
+.about-heading h2{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.about-heading p{
+  font-size: 15px;
+  line-height: 20px;
+}
+.about-container .about-inf{
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+  #skill-sec, #about-sec, #resume {
+    padding-top: 60px;
+}
+
+.skill-box {
+    flex-direction: column;
+    
+    
+}
+.skill-box .skill-card{
+  max-width: 100%;
+}
+
+.resume-heading{
+  width: 80%;
+}
+
+.resume-container{
+  width: 95%;
+  margin: 40px auto;
+  flex-direction: column;
+}
+.resume-container .edu-h2, .Experience .exp-h2{
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+.resume-card .c-title, .exp-card .c-title{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.resume-card .c-info, .exp-card .c-info{
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.resume-card .c-text, .exp-card .c-text{
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 20px;
+}
+.Hero-sec .content .hb .cv, .cv{
+  font-size: 15px;
+  padding: 15px 13px;
+  margin: 0 auto;
+}
+footer {
+  margin-top: 60px;
+  padding: 60px 0px;
+  
+}
+.footer-container {
+  width: 95%;
+  flex-direction: column;
+  gap: 50px;
+}
+.footer-container h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.footer-container p {
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 20px;
+}
+.footer-container .icons a {
+  margin-right: 10px;
+}
+.footer-container form input[type="text"], .footer-container form input[type="email"] {
+  width: 90%;
+  padding: 9px 15px;
+  margin-bottom: 15px;
+}
+.footer-container form textarea{
+  width: 90%;
+  padding: 9px 15px;
+  margin-bottom: 15px;
+}
+
+
+
+}
